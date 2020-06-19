@@ -1,0 +1,123 @@
+body {
+    overflow-x: hidden;
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+        background-color: #4a8873;
+}
+.quizApp {
+  color: #00ffaa;; 
+  --accent-color: rgb(105, 102, 252);
+text-shadow: rgb(122, 122, 122) 4px 3px 0px;; 
+}
+
+.avilaConstruction {
+    color: #00ffaa;; 
+    --accent-color: rgb(105, 102, 252);
+  text-shadow: rgb(122, 122, 122) 4px 3px 0px;; 
+  }
+  
+.api {
+    color: #00ffaa;; 
+    --accent-color: rgb(105, 102, 252);
+  text-shadow: rgb(122, 122, 122) 4px 3px 0px;;  
+}
+
+h1, h2,  {
+    font-family: 'Lato', sans-serif;
+    text-transform: lowercase;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --accent-color: #00ffaa;
+    --text-color: rgb(255, 255, 255);
+}
+h1 span, h2 {
+    color: var(--accent-color);
+}
+@media (min-width: 350px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+a:hover, a:active {
+    color: var(--accent-color);
+    transition: all ease-in-out 0.25s;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 30vh;
+    width: 100vw;
+    padding: 100px 0px;
+
+    background:#022c1e;
+    color: white;
+    text-align: center;
+}
+
+.social-links {
+    margin: 0 0;
+    list-style: none;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.social-links li {
+    width: 50%; 
+    background-color: #00ffaa88;;
+    text-align: center;
+}
+h3 {
+  text-align: center; 
+  color: #00ffaa
+}
+
+
+.social-links a {
+    color: white;
+}
+
+.social-links a:hover, a:active {
+    color: var(--accent-color);
+}
+
+.content {
+    flex: 3;
+    padding: 25px;
+}
+
+@media (min-width: 375px) {
+  
+
+.content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 2px dashed var(--primary-color);
+}
+
+.content a:hover, .content a:active {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
